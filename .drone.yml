@@ -6,7 +6,6 @@ build:
   commands:
     - go test -cover -coverprofile coverage.out
 
-
 publish:
   coverage:
     when:
